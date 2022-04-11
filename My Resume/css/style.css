@@ -2,11 +2,39 @@ body {
   background-color: #e5e5e5;
 
   font-family: "Montserrat", sans-serif;
+
+  /* SVG */
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 img {
   width: 370px;
   height: 450px;
 }
+.icon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  color: #fb6d3a;
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon-youtube {
+  width: 0.857421875em;
+}
+
 .main-section {
   display: flex;
   flex-direction: row-reverse;
@@ -152,6 +180,10 @@ img {
   margin-bottom: 10px;
 }
 /* contacts */
+.Contacts-link:hover,
+.Contacts-link:focus {
+  color: #fb6d3a;
+}
 .Contacts-title {
   font-style: normal;
   font-weight: normal;
@@ -166,6 +198,9 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+}
+.contacts-icon {
+  padding-top: 20px;
 }
 /* tech-skills */
 .Tech-Skills-list {

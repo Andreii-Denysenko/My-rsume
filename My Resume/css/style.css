@@ -65,7 +65,10 @@ img {
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
-  color: #fb6d3a;
+  color: blue;
+}
+.prymery-name {
+  color: yellow;
 }
 .about-me-description {
   font-style: normal;
